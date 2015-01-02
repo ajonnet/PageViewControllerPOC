@@ -14,6 +14,7 @@
 		288678111A55CE9A00A81FE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288678101A55CE9A00A81FE4 /* Images.xcassets */; };
 		288678141A55CE9A00A81FE4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 288678121A55CE9A00A81FE4 /* LaunchScreen.xib */; };
 		288678201A55CE9A00A81FE4 /* pageviewcontrollerPOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2886781F1A55CE9A00A81FE4 /* pageviewcontrollerPOCTests.m */; };
+		2886782B1A55D02A00A81FE4 /* CPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2886782A1A55D02A00A81FE4 /* CPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		288678191A55CE9A00A81FE4 /* pageviewcontrollerPOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pageviewcontrollerPOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2886781E1A55CE9A00A81FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2886781F1A55CE9A00A81FE4 /* pageviewcontrollerPOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pageviewcontrollerPOCTests.m; sourceTree = "<group>"; };
+		288678291A55D02A00A81FE4 /* CPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPageViewController.h; sourceTree = "<group>"; };
+		2886782A1A55D02A00A81FE4 /* CPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				288678101A55CE9A00A81FE4 /* Images.xcassets */,
 				288678121A55CE9A00A81FE4 /* LaunchScreen.xib */,
 				288678031A55CE9A00A81FE4 /* Supporting Files */,
+				288678291A55D02A00A81FE4 /* CPageViewController.h */,
+				2886782A1A55D02A00A81FE4 /* CPageViewController.m */,
 			);
 			path = pageviewcontrollerPOC;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				2886780C1A55CE9A00A81FE4 /* ViewController.m in Sources */,
 				288678091A55CE9A00A81FE4 /* AppDelegate.m in Sources */,
 				288678061A55CE9A00A81FE4 /* main.m in Sources */,
+				2886782B1A55D02A00A81FE4 /* CPageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

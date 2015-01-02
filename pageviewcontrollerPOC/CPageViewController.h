@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CPageViewController.h
 //  pageviewcontrollerPOC
 //
 //  Created by Amit Jain on 02/01/15.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-@property (nonatomic, readwrite) int idx;
+@interface CPageViewController : UIPageViewController
 
 @end
-
